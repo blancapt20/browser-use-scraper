@@ -1,0 +1,17 @@
+# Entorno virtual
+venv/
+__pycache__/
+
+# Claves y configuración sensible
+.env
+
+# Archivos de PyCharm
+.idea/
+
+# Archivos compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Otros
+.DS_Store

@@ -1,0 +1,7 @@
+browser-use
+python-dotenv
+openai
+fastapi
+uvicorn
+playwright
+asyncio
