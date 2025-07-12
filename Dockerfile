@@ -7,11 +7,11 @@ WORKDIR /app
 # Copia tu código y requerimientos
 COPY . .
 
-# (Redundante pero seguro) Instalar dependencias del sistema por si acaso
-RUN playwright install-deps
-
 # Instala las dependencias de Python
 RUN pip install --no-cache-dir -r requirements.txt
+
+# (Redundante pero seguro) Instalar dependencias del sistema por si acaso
+RUN playwright install-deps
 
 # Instala los navegadores necesarios (Chromium, Firefox, WebKit)
 RUN playwright install
